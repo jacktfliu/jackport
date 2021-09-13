@@ -1,9 +1,3 @@
-/*
-* Template Name: Kerge - Resume / CV / vCard Template
-* Author: lmpixels
-* Author URL: http://themeforest.net/user/lmpixels
-* Version: 2.4
-*/
 
 /* =============================================================================
 
@@ -3256,10 +3250,7 @@ blockquote p {
 }
 
 
-/* ============================================================================= 
-12. Updates
-============================================================================= */
-/* v2.0 - 17 September 2018 */
+
 .pt-page.start-page {
   display: table;
   table-layout: fixed;
@@ -3270,7 +3261,6 @@ blockquote p {
 
 .start-page .section-inner {
   background-color: transparent;
-  background-image: url(../images/kerge_start_page_1.jpg);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-attachment: fixed;
@@ -3495,22 +3485,27 @@ body {
 		-ms-justify-content: center;
 		justify-content: center;
 		width: calc(100% + 2em);
-		margin: 0 0 3em -2em;
+		margin: 0 0 3em -1em;
 		padding: 0;
 		list-style: none;
     font-size: 50px;
+
 	}
 
-		.features li {
-			width: calc(33.33333% - 2em);
-			margin-left: 2em;
-			margin-top: 3em;
-			padding: 0;
-		}
+    .features h3{
+      margin-top: 5px;
+      justify-content: center;
+      align-items: center;
+    }
 
-			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3){
-				margin-top: 0;
-			}
+		.features li {
+			width: calc(20% - 2em);
+			margin-top: 2em;
+			padding: 0;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+		}
 
 			.features li > :last-child {
 				margin-bottom: 0;
@@ -3520,12 +3515,10 @@ body {
 		@media screen and (max-width: 980px) {
 
 			.features li {
-				width: calc(50% - 2em);
+				width: calc(25% - 2em);
 			}
 
-				.features li:nth-child(5) {
-					margin-top: 3em;
-				}
+
 
 		}
 
@@ -3539,12 +3532,9 @@ body {
 				.features li {
 					width: 100%;
 					margin-left: 0;
-					margin-top: 2em;
+					margin-top: 0;
 				}
 
-					.features li:nth-child(2), .features li:nth-child(3) {
-						margin-top: 2em;
-					}
 
 		}
 

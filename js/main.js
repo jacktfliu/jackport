@@ -1,9 +1,4 @@
-/*
-* Template Name: Kerge - Resume / CV / vCard Template
-* Author: lmpixels
-* Author URL: http://themeforest.net/user/lmpixels
-* Version: 2.4
-*/
+
 
 (function($) {
 "use strict";
